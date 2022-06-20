@@ -1,0 +1,89 @@
+/*import Inter, a good font*/
+@import url("https://rsms.me/inter/inter.css");
+body {
+  /*background is black*/
+  background-color: #000;
+}
+body main {
+  /*yellow 'book'*/
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  background-color: black;
+}
+body section {
+  /*Each section is flexed*/
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+}
+button {
+  /*global button styles*/
+  -webkit-appearance: none;
+  margin: 5px;
+  border: 0;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+  width: 160px;
+  height: 60px;
+  outline: 0;
+}
+/*Button background colours*/
+#choice1 {
+  background-color: purple;
+}
+#choice2 {
+  background-color: cyan;
+}
+#choice3 {
+  background-color: lime;
+}
+#choice4 {
+  background-color: coral;
+}
+#choice5 {
+  background-color: palevioletred;
+}
+#speak {
+  background-color: teal;
+}
+#random {
+  background-color: crimson;
+}
+/*p color, size and spacing*/
+p {
+  color: darkorange;
+  height: 100px;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+
+}
+/*title color, size and spacing*/
+h1 {
+  color: white;
+  margin: 10px;
+  margin-top: 40px;
+  font-size: 50px;
+}
+/*subtitle color, size and spacing*/
+h2 {
+  color: white;
+  margin: 10px;
+  margin-bottom: 40px;
+  font-size: 30px;
+
+}
+.surprise{
+  color: crimson;
+}
+.playback{
+  color: teal;
+}
+.or{
+  margin: 10px 620px 10px 620px;
+  color: white;
+
+}
